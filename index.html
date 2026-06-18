@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./semanstyle.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#formations">Formations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Chrislain MOUYOCKOLO</h1>
+        <img src="./asset/IMG_7580-2.jpg" alt="image de profil" width="200">
+        <h2>Developeur Wev Full Stack et Adminitrateur Reseau</h2>
+
+    </header>
+
+    <main>
+
+        <section id="profil">
+            <h2>Profil professionnel</h2>
+
+            <article>
+                <h3>Présentation</h3>
+
+                <p>
+                    Passionné par le développement backend, les réseaux Cisco
+                    et l'administration système.
+                </p>
+            </article>
+        </section>
+
+        <section id="experience">
+            <h2>Expériences</h2>
+
+            <article>
+                <h3>Projet de gestion scolaire</h3>
+
+                <p>
+                    Développement d'une application avec Laravel.
+                </p>
+            </article>
+
+            <article>
+                <h3>Laboratoire Réseau</h3>
+
+                <p>
+                    Configuration des VLAN, ACL et protocoles STP.
+                </p>
+            </article>
+        </section>
+
+        <section id="formations">
+            <h2>Formations</h2>
+
+            <article>
+                <h3>Développement Web</h3>
+                <p>HTML5, CSS3, Laravel et Django.</p>
+            </article>
+
+            <article>
+                <h3>Administration Réseau</h3>
+                <p>Configuration Cisco et sécurité réseau.</p>
+            </article>
+        </section>
+
+        <aside>
+            <h2>Objectif professionnel</h2>
+
+            <p>
+                Devenir ingénieur logiciel spécialisé dans les applications web
+                et les infrastructures réseau.
+            </p>
+        </aside>
+
+        <section id="contact">
+            <h2>Prendre contact</h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Informations du visiteur</legend>
+
+                    <label for="nomVisiteur">Nom</label>
+                    <input type="text" id="nomVisiteur" name="nomVisiteur">
+
+                    <label for="mailVisiteur">Adresse email</label>
+                    <input type="email" id="mailVisiteur" name="mailVisiteur">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Votre demande</legend>
+
+                    <label for="categorie">Catégorie</label>
+                    <select id="categorie" name="categorie">
+                        <option>Emploi</option>
+                        <option>Partenariat</option>
+                        <option>Question</option>
+                    </select>
+
+                    <label for="contenu">Message</label>
+                    <textarea id="contenu" name="contenu"></textarea>
+                </fieldset>
+
+                <button type="submit">Envoyer le message</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            Dernière mise à jour : Juin 2026
+        </p>
+    </footer>
+</body>
+</html>
